@@ -11,6 +11,24 @@
   --h3: 36px/28px var(--ff);
   --p: 32px/28px var(--ff);
 }
+header {
+  font: var(--h3);
+  background-color: var(--accent-color);
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 body {
   max-width: 1920px;
   margin: 100px auto;
@@ -45,7 +63,8 @@ a {
 }
 img {
   width: 100%;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 95px;
 }
 div {
   flex: 1;
